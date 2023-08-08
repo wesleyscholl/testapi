@@ -1,0 +1,13 @@
+{
+  "updateStoreDraftDTO": {
+    "storeNumber": 5533,
+    "storeDraftStatusKey": 6,
+    "hasStoreDraftStatusKeyUpdated": true,
+    "messages": [
+      "testing1"
+    ]
+  },
+  "messages": [
+    "testing2"
+  ]
+}
