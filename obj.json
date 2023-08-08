@@ -61,7 +61,7 @@
       "stateCode": "Florida",
       "statePriority": 0,
       "isNewApprovalMarket": false,
-      "isNewPricezone": true,
+      "isNewPricezone": false,
       "isNewState": false,
       "isMix6Store": false,
       "isNewSalesTaxRegion": false,
