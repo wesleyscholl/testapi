@@ -1,0 +1,9 @@
+{
+  "newStoreNumber": 5522,
+  "approvalMarketName": "FL - Ft. Myers",
+  "sortAfterApprovalMarketName": "",
+  "defaultValues": {
+    "create_user_key": "789",
+    "system_user_name": "SystemUser"
+  }
+}
