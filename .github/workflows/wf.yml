@@ -1,0 +1,29 @@
+name: Discussion Autoresponder
+
+on:
+  discussion:
+    types: [created]
+
+jobs:
+  autorespond:
+    name: Posts an autoresponder comment on a new discussion
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v3
+        
+      - name: Run discussion-auto-responder
+        id: autorespond
+        uses: wesleyscholl/discussion-auto-responder@v1.0.0
+        with:
+          GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}" 
+        
+      - name: Show Output
+        run: |
+          echo "discussionId = ${{ steps.autorespond.outputs.discussionId }}"
+          echo "commentId = ${{ steps.autorespond.outputs.commentId }}"
+          echo "commentBody = ${{ steps.autorespond.outputs.commentBody }}"
+          echo "clientMutationId = ${{ steps.autorespond.outputs.clientMutationId }}"
+    
+           
+       
