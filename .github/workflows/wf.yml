@@ -17,6 +17,7 @@ jobs:
         uses: wesleyscholl/discussion-auto-responder@v1.0.3
         with:
           GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}" 
+          comment_body: "This is a test"
           delay_milliseconds: 5000
         
       - name: Show Output
