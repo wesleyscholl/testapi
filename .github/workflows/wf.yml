@@ -14,7 +14,7 @@ jobs:
         
       - name: Run discussion-auto-responder
         id: autorespond
-        uses: wesleyscholl/discussion-auto-responder@latest
+        uses: wesleyscholl/discussion-auto-responder@v1.0.1
         with:
           GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}" 
           comment_body: "konjo"
