@@ -17,7 +17,7 @@ jobs:
         uses: wesleyscholl/discussion-auto-responder@v1.0.0
         with:
           GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}" 
-          commentBody: "konjo"
+          comment_body: "konjo"
         
       - name: Show Output
         run: |
