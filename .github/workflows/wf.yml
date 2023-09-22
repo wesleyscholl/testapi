@@ -18,6 +18,7 @@ jobs:
         with:
           GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}" 
           comment_body: "konjo"
+          delay: "8000"
         
       - name: Show Output
         run: |
