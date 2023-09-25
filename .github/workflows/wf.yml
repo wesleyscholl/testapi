@@ -14,11 +14,11 @@ jobs:
         
       - name: Run discussion-auto-responder
         id: autorespond
-        uses: wesleyscholl/discussion-auto-responder@v1.0.2
+        uses: wesleyscholl/discussion-auto-responder@v1.0.6
         with:
           GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}" 
-          comment_body: "This is a test"
-          delay_milliseconds: "5000"
+          comment_body: "This is a test from testapi"
+          delay_milliseconds: "2000"
         
       - name: Show Output
         run: |
